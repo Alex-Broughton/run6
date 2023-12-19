@@ -1,0 +1,73 @@
+description: cp_pipe PTC calibration construction.
+parameters:
+    exposureName: cpPtcProc
+    measuredCovariances: cpPtcExtract
+tasks:
+  ptcIsr:
+    class: lsst.ip.isr.IsrTask
+    config:
+      connections.ccdExposure: raw
+      connections.outputExposure: parameters.exposureName
+      # CTI correction: if doDeferredCharge=True and if
+      # isr:doApplyGains=True in cpDeferredCharge.yaml
+      # (default as of w_2023_18), deferredChargeCorrection.useGains
+      # should be True.
+      doWrite: true
+      doOverscan: true
+      doAssembleCcd: true
+      doBias: true
+      doVariance: true
+      doLinearize: true
+      doCrosstalk: false
+      doBrighterFatter: false
+      doDark: true
+      doStrayLight: false
+      doFlat: false
+      doFringe: false
+      doApplyGains: false
+      doDefect: true
+      doNanMasking: true
+      doInterpolate: false
+      doSaturation: false
+      doSaturationInterpolation: false
+      growSaturationFootprintSize: 0
+  ptcExtract:
+    class: lsst.cp.pipe.ptc.PhotonTransferCurveExtractTask
+    config:
+      connections.inputExp: parameters.exposureName
+      connections.taskMetadata: 'ptcIsr_metadata'
+      connections.outputCovariances: parameters.measuredCovariances
+      maximumRangeCovariancesAstier: 15
+  ptcSolve:
+    class: lsst.cp.pipe.ptc.PhotonTransferCurveSolveTask
+    config:
+      connections.inputCovariances: parameters.measuredCovariances
+      connections.outputPtcDataset: ptc
+      ptcFitType: FULLCOVARIANCE
+      maximumRangeCovariancesAstier: 15
+      maxMeanSignal: {'ALL_AMPS':55000}
+  ptcPlot:
+    class: lsst.cp.pipe.ptc.PlotPhotonTransferCurveTask
+    config:
+      connections.inputPtcDataset: ptc
+      connections.ptcPlot1: ptcVarMean
+      connections.ptcPlot2: ptcVarMeanLog
+      connections.ptcPlot3: ptcNormalizedVar
+      connections.ptcPlot4: ptcCov01Mean
+      connections.ptcPlot5: ptcCov10Mean
+      connections.ptcPlot6: ptcVarResiduals
+      connections.ptcPlot7: ptcNormalizedCov01
+      connections.ptcPlot8: ptcNormalizedCov10
+      connections.ptcPlot9: ptcAandBMatrices
+      connections.ptcPlot10: ptcAandBDistance
+      connections.ptcPlot11: ptcACumulativeSum
+      connections.ptcPlot12: ptcARelativeBias
+contracts:
+  - ptcSolve.maximumRangeCovariancesAstier == ptcExtract.maximumRangeCovariancesAstier
+  - ptcSolve.binSize == ptcExtract.binSize
+subsets:
+  gainFromFlatPairs:
+      subset:
+          - ptcIsr
+          - ptcExtract
+      description: gain estimation from pairs of flats at the same exposure time.

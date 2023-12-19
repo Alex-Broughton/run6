@@ -1,0 +1,128 @@
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 210, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 221, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 604, in makeGraph
+    butler, collections, run = _ButlerFactory.makeButlerAndCollections(args)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 393, in makeButlerAndCollections
+    butler, inputs, self = cls._makeReadParts(args)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 330, in _makeReadParts
+    self = cls(butler.registry, args, writeable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 248, in __init__
+    self.inputs = tuple(registry.queryCollections(args.input, flattenChains=True)) if args.input else ()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/_registry_shim.py", line 299, in queryCollections
+    return self._registry.queryCollections(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/sql_registry.py", line 1803, in queryCollections
+    for record in self._managers.collections.resolve_wildcard(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 352, in resolve_wildcard
+    for record in self._find_many(wildcard.strings):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 298, in _find_many
+    raise MissingCollectionError(f"No collection with name '{missing_names[0]}' found.")
+lsst.daf.butler.registry._exceptions.MissingCollectionError: No collection with name 'u/abrought/BF/2023.07.19/ptc.2023.07.19.R03-S12.trunc_to_pcti.fullnoisematrix' found.
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 210, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 221, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 604, in makeGraph
+    butler, collections, run = _ButlerFactory.makeButlerAndCollections(args)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 393, in makeButlerAndCollections
+    butler, inputs, self = cls._makeReadParts(args)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 330, in _makeReadParts
+    self = cls(butler.registry, args, writeable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 248, in __init__
+    self.inputs = tuple(registry.queryCollections(args.input, flattenChains=True)) if args.input else ()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/_registry_shim.py", line 299, in queryCollections
+    return self._registry.queryCollections(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/sql_registry.py", line 1803, in queryCollections
+    for record in self._managers.collections.resolve_wildcard(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 352, in resolve_wildcard
+    for record in self._find_many(wildcard.strings):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 298, in _find_many
+    raise MissingCollectionError(f"No collection with name '{missing_names[0]}' found.")
+lsst.daf.butler.registry._exceptions.MissingCollectionError: No collection with name 'u/abrought/BF/2023.07.19/ptc.2023.07.19.R03-S12.trunc_to_pcti.fullnoisematrix' found.
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 210, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 221, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 604, in makeGraph
+    butler, collections, run = _ButlerFactory.makeButlerAndCollections(args)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 393, in makeButlerAndCollections
+    butler, inputs, self = cls._makeReadParts(args)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 330, in _makeReadParts
+    self = cls(butler.registry, args, writeable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 248, in __init__
+    self.inputs = tuple(registry.queryCollections(args.input, flattenChains=True)) if args.input else ()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/_registry_shim.py", line 299, in queryCollections
+    return self._registry.queryCollections(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/sql_registry.py", line 1803, in queryCollections
+    for record in self._managers.collections.resolve_wildcard(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 352, in resolve_wildcard
+    for record in self._find_many(wildcard.strings):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 298, in _find_many
+    raise MissingCollectionError(f"No collection with name '{missing_names[0]}' found.")
+lsst.daf.butler.registry._exceptions.MissingCollectionError: No collection with name 'u/abrought/BF/2023.07.19/ptc.2023.07.19.R03-S12.trunc_to_pcti.fullnoisematrix' found.
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 210, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 221, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 604, in makeGraph
+    butler, collections, run = _ButlerFactory.makeButlerAndCollections(args)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 393, in makeButlerAndCollections
+    butler, inputs, self = cls._makeReadParts(args)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 330, in _makeReadParts
+    self = cls(butler.registry, args, writeable=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 248, in __init__
+    self.inputs = tuple(registry.queryCollections(args.input, flattenChains=True)) if args.input else ()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/_registry_shim.py", line 299, in queryCollections
+    return self._registry.queryCollections(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/sql_registry.py", line 1803, in queryCollections
+    for record in self._managers.collections.resolve_wildcard(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 352, in resolve_wildcard
+    for record in self._find_many(wildcard.strings):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/registry/collections/_base.py", line 298, in _find_many
+    raise MissingCollectionError(f"No collection with name '{missing_names[0]}' found.")
+lsst.daf.butler.registry._exceptions.MissingCollectionError: No collection with name 'u/abrought/BF/2023.07.19/ptc.2023.07.19.R03-S12.trunc_to_pcti.fullnoisematrix' found.

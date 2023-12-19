@@ -1,0 +1,40 @@
+000 (1975412.000.000) 2023-12-15 01:20:07 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: finalJob
+...
+040 (1975412.000.000) 2023-12-15 01:20:14 Started transferring input files
+	Transferring to host: <172.24.33.149:33391?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6450388&PrivNet=sdfrome084.sdf.slac.stanford.edu&addrs=172.24.33.149-33391&alias=sdfrome084.sdf.slac.stanford.edu>
+...
+040 (1975412.000.000) 2023-12-15 01:20:14 Finished transferring input files
+...
+001 (1975412.000.000) 2023-12-15 01:20:14 Job executing on host: <172.24.33.149:37999?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6450143&PrivNet=sdfrome084.sdf.slac.stanford.edu&addrs=172.24.33.149-37999&alias=sdfrome084.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_4295_1_1@sdfrome084.sdf.slac.stanford.edu
+...
+006 (1975412.000.000) 2023-12-15 01:20:23 Image size of job updated: 1
+	5  -  MemoryUsage of job (MB)
+	4956  -  ResidentSetSize of job (KB)
+...
+006 (1975412.000.000) 2023-12-15 01:23:46 Image size of job updated: 1429084
+	362  -  MemoryUsage of job (MB)
+	369972  -  ResidentSetSize of job (KB)
+...
+040 (1975412.000.000) 2023-12-15 01:23:46 Started transferring output files
+...
+040 (1975412.000.000) 2023-12-15 01:23:46 Finished transferring output files
+...
+005 (1975412.000.000) 2023-12-15 01:23:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3623  -  Run Bytes Sent By Job
+	236  -  Run Bytes Received By Job
+	3623  -  Total Bytes Sent By Job
+	236  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            :    81           1    312194 
+	   Memory (MB)          :   362        2048      2048 
+
+	Job terminated of its own accord at 2023-12-15T09:23:46Z with exit-code 0.
+...

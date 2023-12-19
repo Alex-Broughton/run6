@@ -1,0 +1,70 @@
+bpsUseShared: true
+bps_cmdline:
+  runWmsSubmissionChecks: true
+bps_defined:
+  operator: abrought
+  submitPath: /sdf/home/a/abrought/run6/submit/u/abrought/ptc.12.14.2023.run-13538.v2/20231214T235513Z
+  timestamp: 20231214T235513Z
+  uniqProcName: u_abrought_ptc.12.14.2023.run-13538.v2_20231214T235513Z
+campaign: quick
+cloud: {}
+cluster: {}
+clusterAlgorithm: lsst.ctrl.bps.quantum_clustering_funcs.single_quantum_clustering
+computeSite: s3df
+createQuantumGraph: ${CTRL_MPEXEC_DIR}/bin/pipetask {qgraphPreCmdOpts} qgraph --butler-config
+  {butlerConfig} {pipetaskInput} {pipetaskOutput} --output-run {outputRun} --pipeline
+  {pipelineYaml} --save-qgraph {qgraphFile} --qgraph-datastore-records {pipetaskDataQuery}
+  {extraQgraphOptions}
+defaultPreCmdOpts: --long-log --log-level=VERBOSE
+executionButler:
+  whenCreate: NEVER
+fileDistributionEndPoint: ''
+finalJob:
+  command1: ${DAF_BUTLER_DIR}/bin/butler {finalPreCmdOpts} transfer-from-graph {fileDistributionEndPoint}{qgraphFile}
+    {butlerConfig} --register-dataset-types --update-output-chain --transfer-dimensions
+  concurrencyLimit: db_limit
+  finalPreCmdOpts: '{defaultPreCmdOpts}'
+  implementation: JOB
+  whenRun: ALWAYS
+  whenSetup: NEVER
+initPreCmdOpts: '{defaultPreCmdOpts}'
+payload:
+  butlerConfig: /repo/ir2
+  dataQuery: 'instrument=''LSSTCam'' AND detector IN (23) AND exposure.science_program
+    IN (''13538'')  AND exposure.observation_type = ''flat'' AND exposure.observation_reason=''flat'' '
+  extraQgraphOptions: --skip-existing
+  inCollection: u/abrought/ptc.12.14.2023.run-13538,u/cslage/linearizer_28jan22/20220128T174703Z,u/abrought/cti.2023.11.29.DM-41754_and_DM-41911,u/lsstccs/defects_13505_w_2023_41/20231104T224625Z,u/lsstccs/flat_13505_w_2023_41/20231104T223548Z,u/lsstccs/dark_13505_w_2023_41/20231104T222709Z,u/lsstccs/bias_13505_w_2023_41/20231104T221805Z,LSSTCam/raw/all,LSSTCam/calib,LSSTCam/photodiode
+  output: u/{operator}/{payloadName}
+  outputRun: '{output}/{timestamp}'
+  payloadName: ptc.12.14.2023.run-13538.v2
+  runInit: true
+pipelineYaml: $CP_PIPE_DIR/pipelines/_ingredients/cpPtc-complete-solver.yaml
+pipetask:
+  pipetaskInit:
+    runQuantumCommand: ${CTRL_MPEXEC_DIR}/bin/pipetask {initPreCmdOpts} pre-exec-init-qbb
+      {butlerConfig} {fileDistributionEndPoint}{qgraphFile} {extraInitOptions}
+pipetaskDataQuery: -d "{dataQuery}"
+pipetaskInput: -i {inCollection}
+pipetaskOutput: -o {output}
+preemptible: true
+project: dev
+qgraphFileTemplate: '{uniqProcName}.qgraph'
+qgraphPreCmdOpts: '{defaultPreCmdOpts}'
+requestCpus: 1
+requestMemory: 2048
+runPreCmdOpts: '{defaultPreCmdOpts}'
+runQuantumCommand: ${CTRL_MPEXEC_DIR}/bin/pipetask {runPreCmdOpts} run-qbb {butlerConfig}
+  {fileDistributionEndPoint}{qgraphFile} --qgraph-node-id {qgraphNodeId} {extraRunQuantumOptions}
+saveClusteredQgraph: false
+saveDot: false
+saveGenericWorkflow: false
+site: {}
+subDirTemplate: '{label}/{tract}/{patch}/{band}/{subfilter}/{physical_filter}/{visit}/{exposure}'
+submitPath: ${PWD}/submit/{outputRun}
+templateDataId: '{tract}_{patch}_{band}_{visit}_{exposure}_{detector}'
+updateQgraphPreCmdOpts: '{defaultPreCmdOpts}'
+updateQuantumGraph: ${CTRL_MPEXEC_DIR}/bin/pipetask {updateQgraphPreCmdOpts} update-graph-run
+  {inputQgraphFile} {outputRun} {qgraphFile} {extraUpdateQgraphOptions}
+useLazyCommands: true
+whenSaveJobQgraph: NEVER
+wmsServiceClass: lsst.ctrl.bps.htcondor.HTCondorService

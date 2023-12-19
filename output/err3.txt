@@ -1,0 +1,35 @@
+lsst.pipe.base.quantum_graph_builder INFO: Processing pipeline subgraph 1 of 1 with 3 task(s).
+lsst.pipe.base.quantum_graph_builder INFO: Iterating over query results to associate quanta with datasets.
+lsst.pipe.base.quantum_graph_builder INFO: Initial bipartite graph has 3 quanta, 16 dataset nodes, and 13 edges from 1 query row(s).
+lsst.pipe.base.quantum_graph_builder INFO: Generated 1 quantum for task linearityUncorrected.
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 210, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 221, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 650, in makeGraph
+    qgraph = graphBuilder.makeGraph(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/graphBuilder.py", line 174, in makeGraph
+    return qgb.build(metadata)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/utils/g384e8880d6+81bc2a20b4/python/lsst/utils/timer.py", line 295, in timeMethod_wrapper
+    res = func(self, *args, **keyArgs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/quantum_graph_builder.py", line 360, in build
+    self._resolve_task_quanta(task_node, full_skeleton)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/utils/g384e8880d6+81bc2a20b4/python/lsst/utils/timer.py", line 295, in timeMethod_wrapper
+    res = func(self, *args, **keyArgs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/quantum_graph_builder.py", line 497, in _resolve_task_quanta
+    adjusted_inputs = self._gather_quantum_inputs(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/quantum_graph_builder.py", line 807, in _gather_quantum_inputs
+    for ref in finder.find(
+               ^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/prerequisite_helpers.py", line 304, in find
+    raise NotImplementedError(
+NotImplementedError: No support for calibration lookup photodiodeCorrection.inputPtc with dimension(s) {'detector'} not fully constrained by the task. Please create a feature-request ticket and use a lookup function in the meantime.

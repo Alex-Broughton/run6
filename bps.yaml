@@ -1,0 +1,14 @@
+pipelineYaml: "/sdf/home/a/abrought/run6/config/cpPtc.yaml"
+
+project: dev
+campaign: quick
+computeSite: s3df
+
+# Make sure these values correspond to ones in the bin/run_demo.sh's
+# pipetask command line.
+payload: # defaults to u/abrought/...
+  payloadName: "BF/2023.11.07/ptc.R03-S12.trunc_to_pcti.v2"
+  butlerConfig: "/repo/ir2"
+  inCollection: "u/lsstccs/ptc_13511_w_2023_41,LSSTCam/raw/all,LSSTCam/calib"
+  dataQuery: "instrument='LSSTCam' AND detector IN (23) AND exposure.science_program IN ('13511')  AND exposure.observation_type = 'flat' AND exposure.observation_reason='flat' "
+

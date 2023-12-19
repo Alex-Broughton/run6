@@ -1,0 +1,52 @@
+000 (1973579.000.000) 2023-12-14 10:29:55 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: finalJob
+...
+040 (1973579.000.000) 2023-12-14 10:30:23 Started transferring input files
+	Transferring to host: <172.24.48.197:41627?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6224000&PrivNet=sdfmilan125.sdf.slac.stanford.edu&addrs=172.24.48.197-41627&alias=sdfmilan125.sdf.slac.stanford.edu>
+...
+040 (1973579.000.000) 2023-12-14 10:30:24 Finished transferring input files
+...
+001 (1973579.000.000) 2023-12-14 10:30:24 Job executing on host: <172.24.48.197:44589?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220121&PrivNet=sdfmilan125.sdf.slac.stanford.edu&addrs=172.24.48.197-44589&alias=sdfmilan125.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_7640_1_1@sdfmilan125.sdf.slac.stanford.edu
+...
+006 (1973579.000.000) 2023-12-14 10:30:32 Image size of job updated: 1
+	5  -  MemoryUsage of job (MB)
+	5096  -  ResidentSetSize of job (KB)
+...
+006 (1973579.000.000) 2023-12-14 10:35:33 Image size of job updated: 290740
+	73  -  MemoryUsage of job (MB)
+	74516  -  ResidentSetSize of job (KB)
+...
+006 (1973579.000.000) 2023-12-14 10:40:33 Image size of job updated: 349784
+	126  -  MemoryUsage of job (MB)
+	128744  -  ResidentSetSize of job (KB)
+...
+006 (1973579.000.000) 2023-12-14 10:45:35 Image size of job updated: 635548
+	266  -  MemoryUsage of job (MB)
+	271420  -  ResidentSetSize of job (KB)
+...
+006 (1973579.000.000) 2023-12-14 10:50:35 Image size of job updated: 1456000
+	389  -  MemoryUsage of job (MB)
+	397884  -  ResidentSetSize of job (KB)
+...
+040 (1973579.000.000) 2023-12-14 10:50:36 Started transferring output files
+...
+040 (1973579.000.000) 2023-12-14 10:50:36 Finished transferring output files
+...
+005 (1973579.000.000) 2023-12-14 10:50:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:16, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:16, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5261  -  Run Bytes Sent By Job
+	236  -  Run Bytes Received By Job
+	5261  -  Total Bytes Sent By Job
+	236  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.21        1         1 
+	   Disk (KB)            :    83           1    305890 
+	   Memory (MB)          :   389        2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T18:50:36Z with exit-code 0.
+...

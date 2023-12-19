@@ -1,0 +1,110 @@
+000 (1973568.000.000) 2023-12-14 09:14:13 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 7f8c54ab-209a-4520-8cea-28ea43cb1702_ptcSolve_23
+...
+040 (1973568.000.000) 2023-12-14 09:14:54 Finished transferring input files
+...
+001 (1973568.000.000) 2023-12-14 09:14:54 Job executing on host: <172.24.48.197:44589?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220121&PrivNet=sdfmilan125.sdf.slac.stanford.edu&addrs=172.24.48.197-44589&alias=sdfmilan125.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_7640_1_5@sdfmilan125.sdf.slac.stanford.edu
+...
+006 (1973568.000.000) 2023-12-14 09:15:04 Image size of job updated: 2
+	6  -  MemoryUsage of job (MB)
+	5172  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:20:05 Image size of job updated: 30332
+	15  -  MemoryUsage of job (MB)
+	14532  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:25:06 Image size of job updated: 60764
+	32  -  MemoryUsage of job (MB)
+	31928  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:30:06 Image size of job updated: 287436
+	80  -  MemoryUsage of job (MB)
+	81428  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:35:06 Image size of job updated: 337068
+	124  -  MemoryUsage of job (MB)
+	126788  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:40:07 Image size of job updated: 465548
+	211  -  MemoryUsage of job (MB)
+	215432  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:45:07 Image size of job updated: 1435116
+	383  -  MemoryUsage of job (MB)
+	392004  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:50:08 Image size of job updated: 2171084
+	1110  -  MemoryUsage of job (MB)
+	1136260  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 09:55:08 Image size of job updated: 2178564
+	1118  -  MemoryUsage of job (MB)
+	1143868  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:00:08 Image size of job updated: 2180940
+	1120  -  MemoryUsage of job (MB)
+	1146264  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:05:08 Image size of job updated: 2184512
+	1123  -  MemoryUsage of job (MB)
+	1149836  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:15:10 Image size of job updated: 2190456
+	1129  -  MemoryUsage of job (MB)
+	1155780  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:20:11 Image size of job updated: 2191644
+	1130  -  MemoryUsage of job (MB)
+	1156968  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:30:12 Image size of job updated: 2194980
+	1134  -  MemoryUsage of job (MB)
+	1160304  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:40:13 Image size of job updated: 2197844
+	1136  -  MemoryUsage of job (MB)
+	1163168  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 10:50:15 Image size of job updated: 2199532
+	1138  -  MemoryUsage of job (MB)
+	1164856  -  ResidentSetSize of job (KB)
+...
+006 (1973568.000.000) 2023-12-14 11:00:17 Image size of job updated: 2204784
+	1143  -  MemoryUsage of job (MB)
+	1170108  -  ResidentSetSize of job (KB)
+...
+022 (1973568.000.000) 2023-12-14 11:00:59 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot_abrought_7640_1_5@sdfmilan125.sdf.slac.stanford.edu <172.24.48.197:44589?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220121&PrivNet=sdfmilan125.sdf.slac.stanford.edu&addrs=172.24.48.197-44589&alias=sdfmilan125.sdf.slac.stanford.edu>
+...
+024 (1973568.000.000) 2023-12-14 11:40:59 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot_abrought_7640_1_5@sdfmilan125.sdf.slac.stanford.edu, rescheduling job
+...
+040 (1973568.000.000) 2023-12-14 11:50:14 Finished transferring input files
+...
+001 (1973568.000.000) 2023-12-14 11:50:14 Job executing on host: <172.24.33.147:45717?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6224022&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-45717&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_28114_1_1@sdfrome082.sdf.slac.stanford.edu
+...
+040 (1973568.000.000) 2023-12-14 12:48:18 Started transferring output files
+...
+040 (1973568.000.000) 2023-12-14 12:48:18 Finished transferring output files
+...
+005 (1973568.000.000) 2023-12-14 12:48:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:56:46, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:35:51, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7717  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	7717  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.99        1         1 
+	   Disk (KB)            :    87         100    312194 
+	   Memory (MB)          :  1221        2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T20:48:18Z with exit-code 0.
+...

@@ -1,0 +1,11 @@
+digraph DAG {
+    label="DAGMan Job status at Fri Dec 15 09:32:43 2023";
+
+    "pipetaskInit" [shape=ellipse label="pipetaskInit (I)"];
+    "b0cb6237-52ec-4080-9166-60e0f7cd2df3_ptcSolve_23" [shape=ellipse label="b0cb6237-52ec-4080-9166-60e0f7cd2df3_ptcSolve_23 (I)"];
+    "45217043-741e-428c-b937-9734284a9448_ptcPlot_23" [shape=ellipse label="45217043-741e-428c-b937-9734284a9448_ptcPlot_23 (I)"];
+    "finalJob" [shape=ellipse label="finalJob (I)"];
+
+    "pipetaskInit" -> "b0cb6237-52ec-4080-9166-60e0f7cd2df3_ptcSolve_23";
+    "b0cb6237-52ec-4080-9166-60e0f7cd2df3_ptcSolve_23" -> "45217043-741e-428c-b937-9734284a9448_ptcPlot_23";
+}

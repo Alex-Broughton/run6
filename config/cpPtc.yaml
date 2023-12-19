@@ -1,0 +1,35 @@
+description: LSSTCam Photon-Transfer Curve calibration construction.
+instrument: lsst.obs.lsst.LsstCam
+imports:
+  - location: $CP_PIPE_DIR/pipelines/_ingredients/cpPtc.yaml
+tasks:
+  ptcIsr:
+    class: lsst.ip.isr.IsrTask
+    config:
+      deferredChargeCorrection.useGains: true
+  ptcExtract:
+    class: lsst.cp.pipe.ptc.PhotonTransferCurveExtractTask
+    config:
+      edgeMaskLevel: AMP
+      numEdgeSuspect: 20
+      doExtractPhotodiodeData: true
+      auxiliaryHeaderKeys: ["CCOBCURR", "CCOBFLUX"]
+      matchExposuresType: FLUX
+      maximumRangeCovariancesAstier: 15
+  ptcSolve:
+    class: lsst.cp.pipe.ptc.PhotonTransferCurveSolveTask
+    config:
+      connections.inputCovariances: parameters.measuredCovariances
+      connections.outputPtcDataset: ptc
+      ptcFitType: FULLCOVARIANCE
+      maximumRangeCovariancesAstier: 15
+      maxMeanSignal: {'C10': 64936.840978549466, 'C11': 60855.741786600076, 'C12': 60585.03770022552, 'C13': 60392.65820043784, 'C14': 61670.103884419754, 'C15': 56119.281173966745, 'C16': 61088.02903653129, 'C17': 62342.83677956836, 'C07': 63434.22006125949, 'C06': 60328.45729637455, 'C05': 58971.13488433799, 'C04': 59442.10332554949, 'C03': 59534.34675650128, 'C02': 56119.281173966745, 'C01': 58653.91137984125, 'C00': 61580.913538388806}
+contracts:
+  - ptcSolve.maximumRangeCovariancesAstier == ptcExtract.maximumRangeCovariancesAstier
+  - ptcSolve.binSize == ptcExtract.binSize
+subsets:
+  gainFromFlatPairs:
+      subset:
+          - isr
+          - ptcExtract
+      description: gain estimation from pairs of flats at the same exposure time.

@@ -1,0 +1,60 @@
+[
+  Type = "DagStatus";
+  DagFiles = {
+    "/sdf/home/a/abrought/run6/submit/u/abrought/ptc.12.14.2023.run-13538.v2/20231214T235513Z/u_abrought_ptc.12.14.2023.run-13538.v2_20231214T235513Z.dag"
+  };
+  Timestamp = 1702599630; /* "Thu Dec 14 16:20:30 2023" */
+  DagStatus = 6; /* "STATUS_ERROR (failed)" */
+  NodesTotal = 4;
+  NodesDone = 2;
+  NodesPre = 0;
+  NodesQueued = 0;
+  NodesPost = 0;
+  NodesReady = 0;
+  NodesUnready = 0;
+  NodesFutile = 0;
+  NodesFailed = 2;
+  JobProcsHeld = 0;
+  JobProcsIdle = 0; /* includes held */
+]
+[
+  Type = "NodeStatus";
+  Node = "pipetaskInit";
+  NodeStatus = 5; /* "STATUS_DONE" */
+  StatusDetails = "";
+  RetryCount = 0;
+  JobProcsQueued = 0;
+  JobProcsHeld = 0;
+]
+[
+  Type = "NodeStatus";
+  Node = "5112a78d-ed36-491d-8aea-b0972bd26d13_ptcSolve_23";
+  NodeStatus = 5; /* "STATUS_DONE" */
+  StatusDetails = "";
+  RetryCount = 0;
+  JobProcsQueued = 0;
+  JobProcsHeld = 0;
+]
+[
+  Type = "NodeStatus";
+  Node = "b49ce33f-12ce-47de-88fb-8bbe5957ebcf_ptcPlot_23";
+  NodeStatus = 6; /* "STATUS_ERROR" */
+  StatusDetails = "Job proc (1973597.0.0) failed with status 1";
+  RetryCount = 0;
+  JobProcsQueued = 0;
+  JobProcsHeld = 0;
+]
+[
+  Type = "NodeStatus";
+  Node = "finalJob";
+  NodeStatus = 6; /* "STATUS_ERROR" */
+  StatusDetails = "Job failed due to DAGMAN error 0 and POST Script failed with status 2";
+  RetryCount = 0;
+  JobProcsQueued = 0;
+  JobProcsHeld = 0;
+]
+[
+  Type = "StatusEnd";
+  EndTime = 1702599630; /* "Thu Dec 14 16:20:30 2023" */
+  NextUpdate = 0; /* "none" */
+]

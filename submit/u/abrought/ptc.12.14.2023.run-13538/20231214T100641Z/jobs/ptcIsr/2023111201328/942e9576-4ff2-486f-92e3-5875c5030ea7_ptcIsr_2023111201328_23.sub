@@ -1,0 +1,31 @@
+universe=vanilla
+should_transfer_files=YES
+when_to_transfer_output=ON_EXIT_OR_EVICT
+transfer_output_files=""
+transfer_executable=False
+getenv=True
+on_exit_hold=ExitBySignal == true
+on_exit_hold_reason=strcat("Job raised a signal ", string(ExitSignal), ". ", "Handling signal as if job has gone over memory limit.")
+on_exit_hold_subcode=34
+request_cpus=1
+request_memory=2048
+executable=$ENV(CTRL_MPEXEC_DIR)/bin/pipetask
+arguments=--long-log --log-level=VERBOSE run-qbb /repo/ir2 /sdf/home/a/abrought/run6/submit/u/abrought/ptc.12.14.2023.run-13538/20231214T100641Z/u_abrought_ptc.12.14.2023.run-13538_20231214T100641Z.qgraph --qgraph-node-id 942e9576-4ff2-486f-92e3-5875c5030ea7 
+output=jobs/ptcIsr/2023111201328/942e9576-4ff2-486f-92e3-5875c5030ea7_ptcIsr_2023111201328_23.$(Cluster).out
+error=jobs/ptcIsr/2023111201328/942e9576-4ff2-486f-92e3-5875c5030ea7_ptcIsr_2023111201328_23.$(Cluster).err
+log=jobs/ptcIsr/2023111201328/942e9576-4ff2-486f-92e3-5875c5030ea7_ptcIsr_2023111201328_23.$(Cluster).log
++bps_job_quanta = "ptcIsr:1"
++bps_job_name = "942e9576-4ff2-486f-92e3-5875c5030ea7_ptcIsr_2023111201328_23"
++bps_job_label = "ptcIsr"
++bps_isjob = "True"
++bps_project = "dev"
++bps_campaign = "quick"
++bps_run = "u_abrought_ptc.12.14.2023.run-13538_20231214T100641Z"
++bps_operator = "abrought"
++bps_payload = "ptc.12.14.2023.run-13538"
++bps_runsite = "s3df"
++bps_wms_service = "lsst.ctrl.bps.htcondor.htcondor_service.HTCondorService"
++bps_wms_workflow = "lsst.ctrl.bps.htcondor.htcondor_service.HTCondorWorkflow"
++bps_run_quanta = "ptcIsr:828;ptcExtract:1;ptcSolve:1;ptcPlot:1"
++bps_job_summary = "ptcIsr:828;ptcExtract:1;ptcSolve:1;ptcPlot:1;pipetaskInit:1;finalJob:1"
+queue

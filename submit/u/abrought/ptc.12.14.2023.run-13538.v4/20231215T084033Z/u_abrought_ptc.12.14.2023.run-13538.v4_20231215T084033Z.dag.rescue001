@@ -1,0 +1,12 @@
+# Rescue DAG file, created after running
+#   the /sdf/home/a/abrought/run6/submit/u/abrought/ptc.12.14.2023.run-13538.v4/20231215T084033Z/u_abrought_ptc.12.14.2023.run-13538.v4_20231215T084033Z.dag DAG file
+# Created 12/15/2023 09:20:39 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 4
+# Nodes premarked DONE: 2
+# Nodes that failed: 2
+#   eda87833-120d-44f5-bf39-15c52b66c3ca_ptcPlot_23,finalJob,<ENDLIST>
+
+DONE pipetaskInit
+DONE 7a740d10-7399-4ea8-9120-b1749bf96a2e_ptcSolve_23

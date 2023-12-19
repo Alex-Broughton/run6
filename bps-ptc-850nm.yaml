@@ -1,0 +1,21 @@
+pipelineYaml: "$CP_PIPE_DIR/pipelines/_ingredients/cpPtc-complete.yaml"
+
+project: dev
+campaign: quick
+computeSite: s3df
+
+# Make sure these values correspond to ones in the bin/run_demo.sh's
+# pipetask command line.
+payload: # defaults to u/abrought/...
+  payloadName: "ptc.12.14.2023.run-13538"
+  butlerConfig: "/repo/ir2"
+  inCollection: "u/cslage/linearizer_28jan22/20220128T174703Z,u/abrought/cti.2023.11.29.DM-41754_and_DM-41911,u/lsstccs/defects_13505_w_2023_41/20231104T224625Z,u/lsstccs/flat_13505_w_2023_41/20231104T223548Z,u/lsstccs/dark_13505_w_2023_41/20231104T222709Z,u/lsstccs/bias_13505_w_2023_41/20231104T221805Z,LSSTCam/raw/all,LSSTCam/calib,LSSTCam/photodiode"
+  dataQuery: "instrument='LSSTCam' AND detector IN (23) AND exposure.science_program IN ('13538')  AND exposure.observation_type = 'flat' AND exposure.observation_reason='flat' "
+
+
+## ( "uv", 13522 ),
+## ( "blue", 13536 ),
+## ( "red",  13540 ),
+## ( "nm750", 13537 ),
+## ( "nm850", 13538 ),    
+## ( "nm960", 13539 ),

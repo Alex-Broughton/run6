@@ -1,0 +1,37 @@
+000 (1969888.000.000) 2023-12-14 02:17:13 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 93cc0ba2-be96-4838-9830-4d27e985e720_ptcIsr_2023111100942_23
+...
+040 (1969888.000.000) 2023-12-14 02:20:12 Finished transferring input files
+...
+001 (1969888.000.000) 2023-12-14 02:20:12 Job executing on host: <172.24.33.124:44469?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220017&PrivNet=sdfrome059.sdf.slac.stanford.edu&addrs=172.24.33.124-44469&alias=sdfrome059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_2668_1_13@sdfrome059.sdf.slac.stanford.edu
+...
+006 (1969888.000.000) 2023-12-14 02:20:20 Image size of job updated: 26000
+	10  -  MemoryUsage of job (MB)
+	9624  -  ResidentSetSize of job (KB)
+...
+006 (1969888.000.000) 2023-12-14 02:21:31 Image size of job updated: 2126860
+	10  -  MemoryUsage of job (MB)
+	9624  -  ResidentSetSize of job (KB)
+...
+040 (1969888.000.000) 2023-12-14 02:21:32 Started transferring output files
+...
+040 (1969888.000.000) 2023-12-14 02:21:32 Finished transferring output files
+...
+005 (1969888.000.000) 2023-12-14 02:21:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19074  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19074  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :       10     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:21:31Z with exit-code 0.
+...

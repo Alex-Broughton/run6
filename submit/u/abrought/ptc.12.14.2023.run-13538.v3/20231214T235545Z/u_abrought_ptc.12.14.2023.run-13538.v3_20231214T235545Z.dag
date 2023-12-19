@@ -1,0 +1,20 @@
+JOB pipetaskInit jobs/pipetaskInit/pipetaskInit.sub
+JOB 5e42f5b1-968f-4845-b883-6cf0f636c000_ptcSolve_23 jobs/ptcSolve/5e42f5b1-968f-4845-b883-6cf0f636c000_ptcSolve_23.sub
+JOB 06cbc7c6-b7dc-4820-b8e5-41053c3bd0d9_ptcPlot_23 jobs/ptcPlot/06cbc7c6-b7dc-4820-b8e5-41053c3bd0d9_ptcPlot_23.sub
+PARENT pipetaskInit CHILD 5e42f5b1-968f-4845-b883-6cf0f636c000_ptcSolve_23
+PARENT 5e42f5b1-968f-4845-b883-6cf0f636c000_ptcSolve_23 CHILD 06cbc7c6-b7dc-4820-b8e5-41053c3bd0d9_ptcPlot_23
+DOT u_abrought_ptc.12.14.2023.run-13538.v3_20231214T235545Z.dot
+NODE_STATUS_FILE u_abrought_ptc.12.14.2023.run-13538.v3_20231214T235545Z.node_status
+SET_JOB_ATTR bps_isjob= "True"
+SET_JOB_ATTR bps_project= "dev"
+SET_JOB_ATTR bps_campaign= "quick"
+SET_JOB_ATTR bps_run= "u_abrought_ptc.12.14.2023.run-13538.v3_20231214T235545Z"
+SET_JOB_ATTR bps_operator= "abrought"
+SET_JOB_ATTR bps_payload= "ptc.12.14.2023.run-13538.v3"
+SET_JOB_ATTR bps_runsite= "s3df"
+SET_JOB_ATTR bps_wms_service= "lsst.ctrl.bps.htcondor.htcondor_service.HTCondorService"
+SET_JOB_ATTR bps_wms_workflow= "lsst.ctrl.bps.htcondor.htcondor_service.HTCondorWorkflow"
+SET_JOB_ATTR bps_run_quanta= "ptcSolve:1;ptcPlot:1"
+SET_JOB_ATTR bps_job_summary= "ptcSolve:1;ptcPlot:1;pipetaskInit:1;finalJob:1"
+FINAL finalJob jobs/finalJob/finalJob.sub
+SCRIPT POST finalJob /sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_bps_htcondor/g13fd706a04+ec4bd5af37/python/lsst/ctrl/bps/htcondor/final_post.sh finalJob $DAG_STATUS $RETURN

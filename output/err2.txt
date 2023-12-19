@@ -1,0 +1,123 @@
+lsst.pipe.base.quantum_graph_builder INFO: Processing pipeline subgraph 1 of 1 with 2 task(s).
+lsst.pipe.base.quantum_graph_builder INFO: Iterating over query results to associate quanta with datasets.
+lsst.pipe.base.quantum_graph_builder INFO: Initial bipartite graph has 2 quanta, 847 dataset nodes, and 844 edges from 826 query row(s).
+lsst.pipe.base.quantum_graph_builder INFO: Generated 1 quantum for task ptcSolve.
+lsst.pipe.base.quantum_graph_builder INFO: Generated 1 quantum for task ptcPlot.
+lsst.ctrl.mpexec.cmdLineFwk INFO: QuantumGraph contains 2 quanta for 2 tasks, graph ID: '1702366767.42775-3350231'
+Quanta  Tasks  
+------ --------
+     1 ptcSolve
+     1  ptcPlot
+lsst.ctrl.mpexec.singleQuantumExecutor INFO: Preparing execution of quantum for label=ptcSolve dataId={instrument: 'LSSTCam', detector: 23}.
+lsst.ctrl.mpexec.singleQuantumExecutor INFO: Constructing task and executing quantum for label=ptcSolve dataId={instrument: 'LSSTCam', detector: 23}.
+lsst.ptcSolve INFO: Using approximate gain 1.862 and ADU signal cutoff of 268543.8 for amplifier C10
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C10: 217 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.892 and ADU signal cutoff of 264233.8 for amplifier C11
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C11: 222 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.883 and ADU signal cutoff of 265546.0 for amplifier C12
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C12: 223 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.883 and ADU signal cutoff of 265485.9 for amplifier C13
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C13: 212 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.876 and ADU signal cutoff of 266453.8 for amplifier C14
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C14: 211 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.875 and ADU signal cutoff of 266605.6 for amplifier C15
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C15: 215 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.868 and ADU signal cutoff of 267615.7 for amplifier C16
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C16: 213 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.845 and ADU signal cutoff of 270945.7 for amplifier C17
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C17: 222 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.767 and ADU signal cutoff of 283000.1 for amplifier C07
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C07: 183 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.925 and ADU signal cutoff of 259781.0 for amplifier C06
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C06: 207 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.954 and ADU signal cutoff of 255912.2 for amplifier C05
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C05: 204 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.936 and ADU signal cutoff of 258234.5 for amplifier C04
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C04: 191 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.937 and ADU signal cutoff of 258134.0 for amplifier C03
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C03: 209 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.931 and ADU signal cutoff of 258955.9 for amplifier C02
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C02: 208 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.962 and ADU signal cutoff of 254867.3 for amplifier C01
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C01: 221 out of 400
+lsst.ptcSolve INFO: Using approximate gain 1.957 and ADU signal cutoff of 255456.4 for amplifier C00
+lsst.ptcSolve INFO: Number of points discarded in PTC of amplifier C00: 214 out of 400
+lsst.ctrl.mpexec.singleQuantumExecutor INFO: Execution of task 'ptcSolve' on quantum {instrument: 'LSSTCam', detector: 23} took 1431.018 seconds
+lsst.ctrl.mpexec.mpGraphExecutor INFO: Executed 1 quanta successfully, 0 failed and 1 remain out of total 2 quanta.
+lsst.ctrl.mpexec.singleQuantumExecutor INFO: Preparing execution of quantum for label=ptcPlot dataId={instrument: 'LSSTCam', detector: 23}.
+lsst.ctrl.mpexec.singleQuantumExecutor INFO: Constructing task and executing quantum for label=ptcPlot dataId={instrument: 'LSSTCam', detector: 23}.
+timer.lsst.daf.butler.datastores.fileDatastore ERROR: Reading from location file:///sdf/group/rubin/repo/ir2/u/abrought/ptc.13511.test.2/20231212T073918Z/ptc/ptc_LSSTCam_R03_S12_u_abrought_ptc_13511_test_2_20231212T073918Z.fits  with formatter lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter: Took 0.0740 seconds
+lsst.ctrl.mpexec.singleQuantumExecutor ERROR: Execution of task 'ptcPlot' on quantum {instrument: 'LSSTCam', detector: 23} failed. Exception ValueError: Failure from formatter 'lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter' for dataset af9d1798-542a-426e-ac5a-c4574d36f7bb (ptc from file:///sdf/group/rubin/repo/ir2/u/abrought/ptc.13511.test.2/20231212T073918Z/ptc/ptc_LSSTCam_R03_S12_u_abrought_ptc_13511_test_2_20231212T073918Z.fits): cannot reshape array of size 90000 into shape (400,40,40)
+Process task-{instrument: 'LSSTCam', detector: 23}:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/datastores/fileDatastore.py", line 1501, in _read_artifact_into_memory
+    result = formatter.read(component=getInfo.component if isComponent else None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/formatters/file.py", line 259, in read
+    data = self._readFile(path, self.fileDescriptor.storageClass.pytype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/obs_base/g992db002af+bae192100b/python/lsst/obs/base/formatters/fitsGeneric.py", line 61, in _readFile
+    return pytype.readFits(path)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/home/a/abrought/alternate_branches/current/ip_isr/python/lsst/ip/isr/calibType.py", line 522, in readFits
+    return calibClass.fromTable(tableList, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/home/a/abrought/alternate_branches/current/ip_isr/python/lsst/ip/isr/ptcDataset.py", line 656, in fromTable
+    return cls().fromDict(inDict)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/home/a/abrought/alternate_branches/current/ip_isr/python/lsst/ip/isr/ptcDataset.py", line 421, in fromDict
+    dtype=np.float64).reshape(
+                      ^^^^^^^^
+ValueError: cannot reshape array of size 90000 into shape (400,40,40)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/mpGraphExecutor.py", line 170, in _executeJob
+    quantumExecutor.execute(taskDef, quantum)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/singleQuantumExecutor.py", line 167, in execute
+    result = self._execute(taskDef, quantum)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/singleQuantumExecutor.py", line 264, in _execute
+    self.runQuantum(task, quantum, taskDef, limited_butler)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/singleQuantumExecutor.py", line 466, in runQuantum
+    task.runQuantum(butlerQC, inputRefs, outputRefs)
+  File "/sdf/home/a/abrought/alternate_branches/current/cp_pipe/python/lsst/cp/pipe/ptc/cpPlotPtcTask.py", line 180, in runQuantum
+    inputs = butlerQC.get(inputRefs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/_quantumContext.py", line 295, in get
+    val = self._get(ref)
+          ^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/ga1e3b54436+5a64bd9679/python/lsst/pipe/base/_quantumContext.py", line 221, in _get
+    return self.__butler.get(ref)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/direct_butler.py", line 1205, in get
+    return self._datastore.get(ref, parameters=parameters, storageClass=storageClass)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/datastores/fileDatastore.py", line 2413, in get
+    return self._read_artifact_into_memory(getInfo, ref, isComponent=isComponent, cache_ref=cache_ref)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/daf_butler/g593d1161a4+e6fa2bd6b4/python/lsst/daf/butler/datastores/fileDatastore.py", line 1503, in _read_artifact_into_memory
+    raise ValueError(
+ValueError: Failure from formatter 'lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter' for dataset af9d1798-542a-426e-ac5a-c4574d36f7bb (ptc from file:///sdf/group/rubin/repo/ir2/u/abrought/ptc.13511.test.2/20231212T073918Z/ptc/ptc_LSSTCam_R03_S12_u_abrought_ptc_13511_test_2_20231212T073918Z.fits): cannot reshape array of size 90000 into shape (400,40,40)
+lsst.ctrl.mpexec.mpGraphExecutor ERROR: Task <TaskDef(lsst.cp.pipe.ptc.cpPlotPtcTask.PlotPhotonTransferCurveTask, label=ptcPlot) dataId={instrument: 'LSSTCam', detector: 23}> failed, exit code=1; processing will continue for remaining tasks.
+lsst.ctrl.mpexec.mpGraphExecutor INFO: Executed 1 quanta successfully, 1 failed and 0 remain out of total 2 quanta.
+lsst.ctrl.mpexec.mpGraphExecutor ERROR: Failed jobs:
+lsst.ctrl.mpexec.mpGraphExecutor ERROR:   - FAILED: <TaskDef(lsst.cp.pipe.ptc.cpPlotPtcTask.PlotPhotonTransferCurveTask, label=ptcPlot) dataId={instrument: 'LSSTCam', detector: 23}>
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 219, in run
+    script.run(qgraphObj=qgraph, **kwargs)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cli/script/run.py", line 230, in run
+    f.runPipeline(qgraphObj, taskFactory, args)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 830, in runPipeline
+    executor.execute(graph)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/mpGraphExecutor.py", line 409, in execute
+    self._executeQuantaMP(graph, self.report)
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gbe8138e58a+8466d12eef/python/lsst/ctrl/mpexec/mpGraphExecutor.py", line 681, in _executeQuantaMP
+    raise MPGraphExecutorError("One or more tasks failed or timed out during execution.")
+lsst.ctrl.mpexec.mpGraphExecutor.MPGraphExecutorError: One or more tasks failed or timed out during execution.

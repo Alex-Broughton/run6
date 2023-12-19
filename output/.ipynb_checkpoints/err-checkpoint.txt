@@ -1,0 +1,22 @@
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gef1ac55fff+9dabee4918/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 202, in run
+    pipeline = script.build(**kwargs, show=show)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gef1ac55fff+9dabee4918/python/lsst/ctrl/mpexec/cli/script/build.py", line 110, in build
+    pipeline = f.makePipeline(args)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/ctrl_mpexec/gef1ac55fff+9dabee4918/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 551, in makePipeline
+    pipeline = Pipeline.from_uri(args.pipeline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/gfacbe7f57e+607ede7504/python/lsst/pipe/base/pipeline.py", line 333, in from_uri
+    pipeline: Pipeline = cls.fromIR(pipelineIR.PipelineIR.from_uri(uri))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/gfacbe7f57e+607ede7504/python/lsst/pipe/base/pipelineIR.py", line 906, in from_uri
+    return cls(loaded_yaml)
+           ^^^^^^^^^^^^^^^^
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/gfacbe7f57e+607ede7504/python/lsst/pipe/base/pipelineIR.py", line 566, in __init__
+    self._verify_labeled_subsets()
+  File "/sdf/group/rubin/sw/conda/envs/lsst-scipipe-7.0.1/share/eups/Linux64/pipe_base/gfacbe7f57e+607ede7504/python/lsst/pipe/base/pipelineIR.py", line 625, in _verify_labeled_subsets
+    raise ValueError(
+ValueError: Labels {'ptcExtract', 'isr'} were not found in the declared pipeline

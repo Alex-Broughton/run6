@@ -1,0 +1,1752 @@
+000 (1969317.000.000) 2023-12-14 02:08:13 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: pipetaskInit
+...
+001 (1969317.000.000) 2023-12-14 02:16:49 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_1@sdfmilan059.sdf.slac.stanford.edu
+...
+005 (1969317.000.000) 2023-12-14 02:17:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       71        2    312194 
+	   Memory (MB)          :        5     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:17:02Z with exit-code 0.
+...
+000 (1969425.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 47dbe791-97d1-4999-aad4-ba62662ee4a4_ptcIsr_2023110800520_23
+...
+000 (1969427.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 906e4c32-f934-468d-8002-9b412bc390f3_ptcIsr_2023110800519_23
+...
+000 (1969429.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 5c3b70f3-ca4e-46ba-b587-45c1ce59009a_ptcIsr_2023110800564_23
+...
+000 (1969431.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 74a06408-e9d2-4674-9e1a-d63f74079ac5_ptcIsr_2023110800495_23
+...
+000 (1969433.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 19a2f8cb-2701-4b5f-bb62-2e2426aa4e02_ptcIsr_2023110800529_23
+...
+000 (1969435.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: fdd558e3-fc0c-4e7b-9267-635c84cacced_ptcIsr_2023110800511_23
+...
+000 (1969437.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 84e4a11a-6969-4ef5-85f0-b773a8d211be_ptcIsr_2023110800501_23
+...
+000 (1969439.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 3d25b539-8004-4112-b7ab-8c45b1eb1ce6_ptcIsr_2023110800493_23
+...
+000 (1969441.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 57bb0ca3-36dc-441f-8181-c3d40b1b0b7a_ptcIsr_2023110800513_23
+...
+000 (1969444.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: e830ee32-d4cf-4f98-b166-57487daab98f_ptcIsr_2023110800541_23
+...
+000 (1969446.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 4a7bc310-1742-48b7-abde-921a4368f3c0_ptcIsr_2023110800553_23
+...
+000 (1969449.000.000) 2023-12-14 02:17:09 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: a31754b6-ee74-46f3-82c3-b8325950834d_ptcIsr_2023110800534_23
+...
+000 (1969452.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 3844002b-93b0-4047-9d29-cdca1b59d948_ptcIsr_2023110800567_23
+...
+000 (1969455.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: e970adfd-fec5-473b-af15-d49b67a2f6fb_ptcIsr_2023110800585_23
+...
+000 (1969458.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: f0ebcd3f-63b4-407c-831d-a3375175b274_ptcIsr_2023110800544_23
+...
+000 (1969461.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: dd1affe8-bb7c-4bd2-b142-afa80440efc9_ptcIsr_2023110800543_23
+...
+000 (1969464.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: b436c4a6-41fa-4da6-bfef-4ae6623ff332_ptcIsr_2023110800508_23
+...
+000 (1969467.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: c403433a-960c-4824-a663-d7bb9c5352bb_ptcIsr_2023110800540_23
+...
+000 (1969470.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 1540043e-15b5-4227-807e-1636634cebd2_ptcIsr_2023110800561_23
+...
+000 (1969473.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: abc2c0a1-2266-432a-828d-76a9899e679c_ptcIsr_2023110800573_23
+...
+000 (1969476.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 7d80c37e-a84e-44e4-ab09-3dadd417feda_ptcIsr_2023110800586_23
+...
+000 (1969480.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 121eb317-0ed3-4cf7-9349-3027162900df_ptcIsr_2023110800537_23
+...
+000 (1969484.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: fd033ef7-558b-4d1d-b716-5238ee28ea77_ptcIsr_2023110800582_23
+...
+000 (1969488.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 8b773d9b-c76b-4230-ae22-a5252445b7fb_ptcIsr_2023110800496_23
+...
+000 (1969492.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: eff6564f-d509-4927-a718-42e19546d730_ptcIsr_2023110800571_23
+...
+000 (1969496.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 426e700d-be55-482c-a7b4-595bf9b6edb6_ptcIsr_2023110800577_23
+...
+000 (1969500.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 964921c0-244f-4817-a379-ad72c744f449_ptcIsr_2023110800510_23
+...
+000 (1969504.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 2d9dc05b-ee26-4e01-9a56-0b18d6a36a14_ptcIsr_2023110800550_23
+...
+000 (1969509.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 35b79429-4726-4ea2-a2fc-bd369791825b_ptcIsr_2023110800556_23
+...
+000 (1969513.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: b3eb2ee5-1fcd-4e4b-b50d-3b6d288ceca8_ptcIsr_2023110800565_23
+...
+000 (1969517.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 0f1e59ae-58a8-4596-b291-0aa81a69667a_ptcIsr_2023110800546_23
+...
+001 (1969427.000.000) 2023-12-14 02:17:10 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_18@sdfmilan121.sdf.slac.stanford.edu
+...
+000 (1969521.000.000) 2023-12-14 02:17:10 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: cac1ffee-c9b9-43d9-a508-adc815d4ec36_ptcIsr_2023110800547_23
+...
+000 (1969525.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 544389f7-47d1-4cb2-a891-76ab2daf7c0c_ptcIsr_2023110800568_23
+...
+001 (1969429.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_19@sdfrome082.sdf.slac.stanford.edu
+...
+000 (1969529.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 50e5f960-5879-4081-a24f-1ccc0bc2b196_ptcIsr_2023110800552_23
+...
+001 (1969425.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_16@sdfmilan059.sdf.slac.stanford.edu
+...
+000 (1969533.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: a5045b0b-2728-4fdf-85f4-dd4927392a13_ptcIsr_2023110800525_23
+...
+001 (1969435.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_20@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969433.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_20@sdfmilan114.sdf.slac.stanford.edu
+...
+000 (1969537.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 8abe8d9d-9aa2-4637-bc89-f401d2e72058_ptcIsr_2023110800610_23
+...
+000 (1969541.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: f7f8c3cd-cb0d-46ec-8ba0-0d1c20268614_ptcIsr_2023110800489_23
+...
+001 (1969439.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_20@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969431.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_17@sdfmilan059.sdf.slac.stanford.edu
+...
+000 (1969545.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 2505a378-2628-403b-9615-58377934e256_ptcIsr_2023110800505_23
+...
+000 (1969549.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 031b3592-f977-4a3e-8314-71c6f4365547_ptcIsr_2023110800549_23
+...
+000 (1969553.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 52d0b7eb-ae78-4f4a-89ce-83ea4a5a36d4_ptcIsr_2023110800583_23
+...
+000 (1969557.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 97cc8ec2-425f-49ae-bcd8-919e062bce23_ptcIsr_2023110800558_23
+...
+000 (1969561.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 3cd8d4f1-38dc-49a7-9c2e-b23d8169f6f1_ptcIsr_2023110800570_23
+...
+000 (1969565.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 629446bc-e3f6-40e3-9cc9-e9def8fb040c_ptcIsr_2023110800606_23
+...
+001 (1969441.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_21@sdfrome082.sdf.slac.stanford.edu
+...
+000 (1969569.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: b895b89c-3723-4d91-baed-ec0e5e5e6989_ptcIsr_2023110800532_23
+...
+000 (1969573.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 5c542311-73a6-4bef-be92-e8b05efd2e2f_ptcIsr_2023110800555_23
+...
+000 (1969577.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 479eb8c9-8b97-4578-a612-8af65f3616f0_ptcIsr_2023110800562_23
+...
+000 (1969581.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 41185985-2a98-4b46-a59c-408298614703_ptcIsr_2023110800603_23
+...
+000 (1969585.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 210d119f-5303-4dbd-b3ed-cf2877454154_ptcIsr_2023110800498_23
+...
+000 (1969589.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: c068f862-7f38-43fe-be8b-5b300eaca6a3_ptcIsr_2023110800499_23
+...
+000 (1969593.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 131d531b-a0d5-4237-8681-afb30b866809_ptcIsr_2023110800535_23
+...
+000 (1969597.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: ec7a6c67-bfad-4bcb-8928-e27a92e436b5_ptcIsr_2023110800580_23
+...
+001 (1969446.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_22@sdfmilan049.sdf.slac.stanford.edu
+...
+000 (1969601.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 6043d10a-6237-4793-87ce-a1e79156ae19_ptcIsr_2023110800516_23
+...
+001 (1969449.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_22@sdfmilan113.sdf.slac.stanford.edu
+...
+000 (1969605.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 1c063765-e7e3-45ce-a593-a0da18796250_ptcIsr_2023110800490_23
+...
+000 (1969609.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 3a473941-26bc-44cf-984c-2c422bc6c445_ptcIsr_2023110800528_23
+...
+000 (1969613.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: ecad0c78-a575-46d6-b9ec-bd4c895d73e1_ptcIsr_2023110800502_23
+...
+001 (1969452.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_23@sdfmilan114.sdf.slac.stanford.edu
+...
+000 (1969617.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 547549d8-eb22-4159-88db-2ebac43c25f0_ptcIsr_2023110800517_23
+...
+001 (1969437.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_18@sdfmilan059.sdf.slac.stanford.edu
+...
+000 (1969621.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 0e461cd8-4693-4004-93d5-8a795f62f7aa_ptcIsr_2023110800523_23
+...
+000 (1969625.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 342d0713-14b9-4e16-b8e9-302bfbd1930e_ptcIsr_2023110800579_23
+...
+001 (1969455.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_23@sdfmilan113.sdf.slac.stanford.edu
+...
+000 (1969629.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 0901be0c-af18-41a9-b920-75ef2480be88_ptcIsr_2023110800598_23
+...
+000 (1969633.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: bcded02a-827b-41ae-94bf-2fbe9794b5b6_ptcIsr_2023110800538_23
+...
+000 (1969637.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: db13d5a9-6014-4562-9f9a-b86629086e10_ptcIsr_2023110800531_23
+...
+000 (1969641.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 4e62afef-74c9-4f69-ae2f-8b117a88217a_ptcIsr_2023110800574_23
+...
+000 (1969645.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 6102e7a3-3464-46d0-ac6f-420dc6c21c40_ptcIsr_2023110800522_23
+...
+000 (1969649.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: fb0fc3cd-4f70-4e94-8528-e5a82168a601_ptcIsr_2023110800504_23
+...
+000 (1969653.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: d104a854-1c8d-4541-a690-8586abe30ca3_ptcIsr_2023110800514_23
+...
+000 (1969657.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 6346b65e-157e-4846-9c7e-058bfbf95b19_ptcIsr_2023110800507_23
+...
+000 (1969661.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 4b81d30b-847c-4d27-b1d4-c9ee8231ad1b_ptcIsr_2023110800526_23
+...
+001 (1969444.000.000) 2023-12-14 02:17:11 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_19@sdfmilan059.sdf.slac.stanford.edu
+...
+000 (1969665.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: f00f73c8-3e88-42f4-bca1-3db789813c90_ptcIsr_2023110800594_23
+...
+000 (1969669.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 843d991f-4d44-4332-b580-178d2a004dbf_ptcIsr_2023110800576_23
+...
+000 (1969673.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 44021449-4125-4f79-a2eb-18037c85e59c_ptcIsr_2023110800492_23
+...
+000 (1969677.000.000) 2023-12-14 02:17:11 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: dd67df10-266a-4677-8836-3da0ed1de48a_ptcIsr_2023110800559_23
+...
+001 (1969458.000.000) 2023-12-14 02:17:12 Job executing on host: <172.24.48.159:36013?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219701&PrivNet=sdfmilan059.sdf.slac.stanford.edu&addrs=172.24.48.159-36013&alias=sdfmilan059.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18206_1_22@sdfmilan059.sdf.slac.stanford.edu
+...
+001 (1969461.000.000) 2023-12-14 02:17:52 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_7@sdfmilan114.sdf.slac.stanford.edu
+...
+001 (1969464.000.000) 2023-12-14 02:17:54 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_3@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969470.000.000) 2023-12-14 02:17:56 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_5@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969467.000.000) 2023-12-14 02:17:57 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_2@sdfmilan114.sdf.slac.stanford.edu
+...
+001 (1969476.000.000) 2023-12-14 02:17:57 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_2@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969484.000.000) 2023-12-14 02:18:00 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_9@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969473.000.000) 2023-12-14 02:18:02 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_19@sdfmilan114.sdf.slac.stanford.edu
+...
+001 (1969488.000.000) 2023-12-14 02:18:03 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_5@sdfmilan113.sdf.slac.stanford.edu
+...
+001 (1969480.000.000) 2023-12-14 02:18:03 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_1@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969433.000.000) 2023-12-14 02:18:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :       11     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:04Z with exit-code 0.
+...
+005 (1969429.000.000) 2023-12-14 02:18:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :        6     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:05Z with exit-code 0.
+...
+001 (1969500.000.000) 2023-12-14 02:18:05 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_8@sdfrome082.sdf.slac.stanford.edu
+...
+001 (1969496.000.000) 2023-12-14 02:18:06 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_12@sdfrome082.sdf.slac.stanford.edu
+...
+001 (1969492.000.000) 2023-12-14 02:18:06 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_2@sdfmilan113.sdf.slac.stanford.edu
+...
+001 (1969509.000.000) 2023-12-14 02:18:07 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_12@sdfmilan114.sdf.slac.stanford.edu
+...
+001 (1969513.000.000) 2023-12-14 02:18:08 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_17@sdfrome082.sdf.slac.stanford.edu
+...
+001 (1969504.000.000) 2023-12-14 02:18:08 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_14@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969517.000.000) 2023-12-14 02:18:09 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_21@sdfmilan114.sdf.slac.stanford.edu
+...
+005 (1969441.000.000) 2023-12-14 02:18:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      622     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:09Z with exit-code 0.
+...
+001 (1969529.000.000) 2023-12-14 02:18:10 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_20@sdfrome082.sdf.slac.stanford.edu
+...
+005 (1969427.000.000) 2023-12-14 02:18:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      630     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:10Z with exit-code 0.
+...
+005 (1969439.000.000) 2023-12-14 02:18:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :        6     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:10Z with exit-code 0.
+...
+001 (1969525.000.000) 2023-12-14 02:18:11 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_16@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969537.000.000) 2023-12-14 02:18:12 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_20@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969533.000.000) 2023-12-14 02:18:14 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_12@sdfmilan113.sdf.slac.stanford.edu
+...
+001 (1969521.000.000) 2023-12-14 02:18:16 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_3@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969541.000.000) 2023-12-14 02:18:16 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_10@sdfmilan113.sdf.slac.stanford.edu
+...
+001 (1969553.000.000) 2023-12-14 02:18:18 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_19@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969545.000.000) 2023-12-14 02:18:18 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_10@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969549.000.000) 2023-12-14 02:18:19 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_12@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969557.000.000) 2023-12-14 02:18:22 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_19@sdfmilan049.sdf.slac.stanford.edu
+...
+005 (1969446.000.000) 2023-12-14 02:18:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      628     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:22Z with exit-code 0.
+...
+001 (1969565.000.000) 2023-12-14 02:18:22 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_17@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969561.000.000) 2023-12-14 02:18:23 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_14@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969435.000.000) 2023-12-14 02:18:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :        8     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:23Z with exit-code 0.
+...
+005 (1969455.000.000) 2023-12-14 02:18:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18803  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18803  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      616     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:23Z with exit-code 0.
+...
+005 (1969449.000.000) 2023-12-14 02:18:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18804  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18804  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      625     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:23Z with exit-code 0.
+...
+001 (1969569.000.000) 2023-12-14 02:18:25 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_22@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969452.000.000) 2023-12-14 02:18:26 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:11, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:11, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :     1164     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:26Z with exit-code 0.
+...
+001 (1969573.000.000) 2023-12-14 02:18:32 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_23@sdfmilan114.sdf.slac.stanford.edu
+...
+005 (1969473.000.000) 2023-12-14 02:18:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312193 
+	   Memory (MB)          :      616     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:40Z with exit-code 0.
+...
+005 (1969467.000.000) 2023-12-14 02:18:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :       82     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:40Z with exit-code 0.
+...
+001 (1969577.000.000) 2023-12-14 02:18:42 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_1@sdfmilan114.sdf.slac.stanford.edu
+...
+005 (1969461.000.000) 2023-12-14 02:18:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18803  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18803  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :       10     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:42Z with exit-code 0.
+...
+001 (1969581.000.000) 2023-12-14 02:18:46 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_11@sdfmilan114.sdf.slac.stanford.edu
+...
+005 (1969484.000.000) 2023-12-14 02:18:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :     1332     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:50Z with exit-code 0.
+...
+001 (1969585.000.000) 2023-12-14 02:18:50 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_12@sdfmilan121.sdf.slac.stanford.edu
+...
+005 (1969476.000.000) 2023-12-14 02:18:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :       29     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:51Z with exit-code 0.
+...
+001 (1969593.000.000) 2023-12-14 02:18:52 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_9@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969589.000.000) 2023-12-14 02:18:52 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_2@sdfrome082.sdf.slac.stanford.edu
+...
+001 (1969597.000.000) 2023-12-14 02:18:53 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_11@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969601.000.000) 2023-12-14 02:18:54 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_7@sdfmilan121.sdf.slac.stanford.edu
+...
+005 (1969464.000.000) 2023-12-14 02:18:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :       73     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:54Z with exit-code 0.
+...
+005 (1969470.000.000) 2023-12-14 02:18:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    311595 
+	   Memory (MB)          :       57     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:54Z with exit-code 0.
+...
+001 (1969605.000.000) 2023-12-14 02:18:56 Job executing on host: <172.24.48.186:33679?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219700&PrivNet=sdfmilan114.sdf.slac.stanford.edu&addrs=172.24.48.186-33679&alias=sdfmilan114.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_14493_1_10@sdfmilan114.sdf.slac.stanford.edu
+...
+001 (1969609.000.000) 2023-12-14 02:18:57 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_8@sdfmilan121.sdf.slac.stanford.edu
+...
+005 (1969509.000.000) 2023-12-14 02:18:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:19, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:19, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18804  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18804  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :      687     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:57Z with exit-code 0.
+...
+005 (1969500.000.000) 2023-12-14 02:18:59 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      642     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:59Z with exit-code 0.
+...
+001 (1969613.000.000) 2023-12-14 02:19:00 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_5@sdfrome082.sdf.slac.stanford.edu
+...
+005 (1969496.000.000) 2023-12-14 02:19:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      622     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:18:59Z with exit-code 0.
+...
+005 (1969513.000.000) 2023-12-14 02:19:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312116 
+	   Memory (MB)          :       85     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:01Z with exit-code 0.
+...
+001 (1969617.000.000) 2023-12-14 02:19:02 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_10@sdfrome082.sdf.slac.stanford.edu
+...
+005 (1969504.000.000) 2023-12-14 02:19:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    311595 
+	   Memory (MB)          :      638     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:02Z with exit-code 0.
+...
+005 (1969517.000.000) 2023-12-14 02:19:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :      117     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:02Z with exit-code 0.
+...
+005 (1969537.000.000) 2023-12-14 02:19:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      635     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:04Z with exit-code 0.
+...
+001 (1969621.000.000) 2023-12-14 02:19:05 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_14@sdfmilan121.sdf.slac.stanford.edu
+...
+005 (1969480.000.000) 2023-12-14 02:19:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :       32     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:06Z with exit-code 0.
+...
+001 (1969625.000.000) 2023-12-14 02:19:08 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_11@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969529.000.000) 2023-12-14 02:19:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312116 
+	   Memory (MB)          :      618     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:08Z with exit-code 0.
+...
+001 (1969629.000.000) 2023-12-14 02:19:09 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_1@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969492.000.000) 2023-12-14 02:19:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19074  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19074  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312194 
+	   Memory (MB)          :       58     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:08Z with exit-code 0.
+...
+005 (1969525.000.000) 2023-12-14 02:19:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:18, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:18, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :     1321     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:09Z with exit-code 0.
+...
+001 (1969633.000.000) 2023-12-14 02:19:12 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_4@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969637.000.000) 2023-12-14 02:19:12 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_13@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969488.000.000) 2023-12-14 02:19:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      653     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:12Z with exit-code 0.
+...
+001 (1969641.000.000) 2023-12-14 02:19:13 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_18@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969541.000.000) 2023-12-14 02:19:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      624     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:15Z with exit-code 0.
+...
+001 (1969649.000.000) 2023-12-14 02:19:17 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_4@sdfmilan113.sdf.slac.stanford.edu
+...
+001 (1969645.000.000) 2023-12-14 02:19:17 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_6@sdfmilan049.sdf.slac.stanford.edu
+...
+005 (1969549.000.000) 2023-12-14 02:19:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312194 
+	   Memory (MB)          :      628     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:16Z with exit-code 0.
+...
+005 (1969521.000.000) 2023-12-14 02:19:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      618     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:18Z with exit-code 0.
+...
+005 (1969533.000.000) 2023-12-14 02:19:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      654     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:18Z with exit-code 0.
+...
+001 (1969653.000.000) 2023-12-14 02:19:19 Job executing on host: <172.24.33.147:42953?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219703&PrivNet=sdfrome082.sdf.slac.stanford.edu&addrs=172.24.33.147-42953&alias=sdfrome082.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_48_1_21@sdfrome082.sdf.slac.stanford.edu
+...
+005 (1969545.000.000) 2023-12-14 02:19:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      660     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:20Z with exit-code 0.
+...
+001 (1969657.000.000) 2023-12-14 02:19:21 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_3@sdfmilan049.sdf.slac.stanford.edu
+...
+001 (1969661.000.000) 2023-12-14 02:19:24 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_17@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969665.000.000) 2023-12-14 02:19:26 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_15@sdfmilan121.sdf.slac.stanford.edu
+...
+005 (1969553.000.000) 2023-12-14 02:19:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      124     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:26Z with exit-code 0.
+...
+005 (1969573.000.000) 2023-12-14 02:19:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:15, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:15, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18804  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18804  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :     1324     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:28Z with exit-code 0.
+...
+005 (1969557.000.000) 2023-12-14 02:19:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:17, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:17, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18803  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18803  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :     1322     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:29Z with exit-code 0.
+...
+001 (1969669.000.000) 2023-12-14 02:19:30 Job executing on host: <172.24.48.193:46283?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219697&PrivNet=sdfmilan121.sdf.slac.stanford.edu&addrs=172.24.48.193-46283&alias=sdfmilan121.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_10210_1_21@sdfmilan121.sdf.slac.stanford.edu
+...
+001 (1969673.000.000) 2023-12-14 02:19:33 Job executing on host: <172.24.48.185:41489?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219699&PrivNet=sdfmilan113.sdf.slac.stanford.edu&addrs=172.24.48.185-41489&alias=sdfmilan113.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_18623_1_9@sdfmilan113.sdf.slac.stanford.edu
+...
+005 (1969561.000.000) 2023-12-14 02:19:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19074  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19074  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312194 
+	   Memory (MB)          :      652     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:34Z with exit-code 0.
+...
+005 (1969577.000.000) 2023-12-14 02:19:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312193 
+	   Memory (MB)          :       74     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:34Z with exit-code 0.
+...
+001 (1969677.000.000) 2023-12-14 02:19:34 Job executing on host: <172.24.48.149:38613?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6219698&PrivNet=sdfmilan049.sdf.slac.stanford.edu&addrs=172.24.48.149-38613&alias=sdfmilan049.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_1727_1_14@sdfmilan049.sdf.slac.stanford.edu
+...
+005 (1969589.000.000) 2023-12-14 02:19:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      615     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:34Z with exit-code 0.
+...
+005 (1969593.000.000) 2023-12-14 02:19:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      168     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:36Z with exit-code 0.
+...
+005 (1969597.000.000) 2023-12-14 02:19:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      608     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:36Z with exit-code 0.
+...
+005 (1969565.000.000) 2023-12-14 02:19:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      636     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:38Z with exit-code 0.
+...
+005 (1969569.000.000) 2023-12-14 02:19:39 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:19, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:19, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      657     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:39Z with exit-code 0.
+...
+005 (1969581.000.000) 2023-12-14 02:19:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :       85     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:40Z with exit-code 0.
+...
+005 (1969585.000.000) 2023-12-14 02:19:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :     1309     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:42Z with exit-code 0.
+...
+005 (1969605.000.000) 2023-12-14 02:19:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312193 
+	   Memory (MB)          :      655     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:42Z with exit-code 0.
+...
+005 (1969601.000.000) 2023-12-14 02:19:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      614     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:47Z with exit-code 0.
+...
+005 (1969458.000.000) 2023-12-14 02:19:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18803  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18803  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      607     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:49Z with exit-code 0.
+...
+005 (1969613.000.000) 2023-12-14 02:19:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:17, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:17, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :     1317     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:51Z with exit-code 0.
+...
+005 (1969609.000.000) 2023-12-14 02:19:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      607     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:54Z with exit-code 0.
+...
+005 (1969617.000.000) 2023-12-14 02:19:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      622     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:19:56Z with exit-code 0.
+...
+005 (1969641.000.000) 2023-12-14 02:20:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    312194 
+	   Memory (MB)          :     1339     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:11Z with exit-code 0.
+...
+005 (1969629.000.000) 2023-12-14 02:20:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      654     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:12Z with exit-code 0.
+...
+005 (1969625.000.000) 2023-12-14 02:20:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      619     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:12Z with exit-code 0.
+...
+005 (1969637.000.000) 2023-12-14 02:20:14 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      118     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:13Z with exit-code 0.
+...
+005 (1969621.000.000) 2023-12-14 02:20:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :       85     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:14Z with exit-code 0.
+...
+005 (1969633.000.000) 2023-12-14 02:20:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :       15     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:15Z with exit-code 0.
+...
+005 (1969665.000.000) 2023-12-14 02:20:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	19072  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	19072  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       91        2    311595 
+	   Memory (MB)          :      662     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:19Z with exit-code 0.
+...
+005 (1969653.000.000) 2023-12-14 02:20:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312116 
+	   Memory (MB)          :      624     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:19Z with exit-code 0.
+...
+005 (1969657.000.000) 2023-12-14 02:20:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18800  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18800  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      616     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:20Z with exit-code 0.
+...
+005 (1969645.000.000) 2023-12-14 02:20:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      619     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:22Z with exit-code 0.
+...
+005 (1969661.000.000) 2023-12-14 02:20:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18531  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18531  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :      617     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:22Z with exit-code 0.
+...
+005 (1969649.000.000) 2023-12-14 02:20:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :     1322     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:24Z with exit-code 0.
+...
+005 (1969669.000.000) 2023-12-14 02:20:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:24, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:24, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    311595 
+	   Memory (MB)          :       57     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:28Z with exit-code 0.
+...
+005 (1969431.000.000) 2023-12-14 02:20:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:25, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      602     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:29Z with exit-code 0.
+...
+005 (1969437.000.000) 2023-12-14 02:20:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18533  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18533  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :        8     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:33Z with exit-code 0.
+...
+005 (1969444.000.000) 2023-12-14 02:20:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18802  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18802  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :        1     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:39Z with exit-code 0.
+...
+005 (1969425.000.000) 2023-12-14 02:20:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :       13     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:41Z with exit-code 0.
+...
+005 (1969677.000.000) 2023-12-14 02:20:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18801  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18801  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      108     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:46Z with exit-code 0.
+...
+005 (1969673.000.000) 2023-12-14 02:20:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18532  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	18532  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       90        2    312194 
+	   Memory (MB)          :      621     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:20:46Z with exit-code 0.
+...
+000 (1973493.000.000) 2023-12-14 02:20:52 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: c44d13b3-4a04-4397-b034-3b006526f22e_ptcExtract_23
+...
+001 (1973493.000.000) 2023-12-14 02:30:50 Job executing on host: <172.24.33.213:43829?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220038&PrivNet=sdfrome022.sdf.slac.stanford.edu&addrs=172.24.33.213-43829&alias=sdfrome022.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_31850_1_19@sdfrome022.sdf.slac.stanford.edu
+...
+005 (1973493.000.000) 2023-12-14 02:42:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:11, Sys 0 00:00:36  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:11, Sys 0 00:00:36  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3772  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	3772  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.93        1         1 
+	   Disk (KB)            :    84           2    312194 
+	   Memory (MB)          :   941        2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T10:42:19Z with exit-code 0.
+...
+000 (1973501.000.000) 2023-12-14 02:42:28 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: 57d44e49-f353-4ac8-bba7-6e03734757e9_ptcSolve_23
+...
+001 (1973501.000.000) 2023-12-14 02:42:29 Job executing on host: <172.24.33.213:43829?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220038&PrivNet=sdfrome022.sdf.slac.stanford.edu&addrs=172.24.33.213-43829&alias=sdfrome022.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_31850_1_19@sdfrome022.sdf.slac.stanford.edu
+...
+005 (1973501.000.000) 2023-12-14 03:19:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:36:19, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:36:19, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7682  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	7682  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.99        1         1 
+	   Disk (KB)            :    86           2    312194 
+	   Memory (MB)          :   436        2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T11:19:10Z with exit-code 0.
+...
+000 (1973506.000.000) 2023-12-14 03:19:16 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: d881370a-9334-4f47-b513-ce3497b2344b_ptcPlot_23
+...
+001 (1973506.000.000) 2023-12-14 03:19:16 Job executing on host: <172.24.33.213:43829?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220038&PrivNet=sdfrome022.sdf.slac.stanford.edu&addrs=172.24.33.213-43829&alias=sdfrome022.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_31850_1_19@sdfrome022.sdf.slac.stanford.edu
+...
+005 (1973506.000.000) 2023-12-14 03:19:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:12, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:12, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1469  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	1469  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       73        2    312194 
+	   Memory (MB)          :      527     2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T11:19:34Z with exit-code 0.
+...
+000 (1973507.000.000) 2023-12-14 03:19:41 Job submitted from host: <172.24.33.226:11547?addrs=172.24.33.226-11547&alias=sdfrome002.sdf.slac.stanford.edu>
+    DAG Node: finalJob
+...
+001 (1973507.000.000) 2023-12-14 03:19:46 Job executing on host: <172.24.48.197:44589?CCBID=172.24.33.225:9618%3faddrs%3d172.24.33.225-9618%26alias%3dsdfrome001.sdf.slac.stanford.edu#6220121&PrivNet=sdfmilan125.sdf.slac.stanford.edu&addrs=172.24.48.197-44589&alias=sdfmilan125.sdf.slac.stanford.edu>
+	SlotName: slot_abrought_7640_1_1@sdfmilan125.sdf.slac.stanford.edu
+...
+005 (1973507.000.000) 2023-12-14 03:25:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:07, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:07, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7925  -  Run Bytes Sent By Job
+	236  -  Run Bytes Received By Job
+	7925  -  Total Bytes Sent By Job
+	236  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.04        1         1 
+	   Disk (KB)            :    86           1    305890 
+	   Memory (MB)          :   356        2048      2048 
+
+	Job terminated of its own accord at 2023-12-14T11:25:00Z with exit-code 0.
+...
+016 (1973507.000.000) 2023-12-14 03:25:01 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: finalJob
+...

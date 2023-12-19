@@ -1,0 +1,6 @@
+*.fits
+*.npz
+*.gz
+*.err
+*.out
+*.pkl

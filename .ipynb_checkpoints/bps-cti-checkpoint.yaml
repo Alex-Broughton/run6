@@ -1,0 +1,13 @@
+pipelineYaml: "$CP_PIPE_DIR/pipelines/_ingredients/cpDeferredCharge.yaml"
+
+project: dev
+campaign: quick
+computeSite: s3df
+
+# Make sure these values correspond to ones in the bin/run_demo.sh's
+# pipetask command line.
+payload: # defaults to u/abrought/...
+  payloadName: "cti.2023.11.29.DM-41754_and_DM-41911"
+  butlerConfig: "/repo/ir2"
+  inCollection: "LSSTCam/calib/DM-36442/linearity.20221026a,u/lsstccs/defects_13505_w_2023_41/20231104T224625Z,u/lsstccs/flat_13505_w_2023_41/20231104T223548Z,u/lsstccs/dark_13505_w_2023_41/20231104T222709Z,u/lsstccs/bias_13505_w_2023_41/20231104T221805Z,u/lsstccs/bias_13505_w_2023_41/20231104T163511Z,LSSTCam/raw/all,LSSTCam/calib,LSSTCam/photodiode"
+  dataQuery: "detector IN (23) AND instrument='LSSTCam' AND exposure.science_program IN ('13511')  AND exposure.observation_type = 'flat' AND exposure.observation_reason='flat' "
